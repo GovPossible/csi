@@ -4206,7 +4206,7 @@
     [codes.naics.45299]
     name = "All Other General Merchandise Stores"
 
-    [codes.naics.452990]
+    [codes.naics.452319]
     name = "All Other General Merchandise Stores"
     sic_correlations = ["5531", "5399", "5331"]
 
@@ -4982,7 +4982,7 @@
     [codes.naics.51711]
     name = "Wired Telecommunications Carriers"
 
-    [codes.naics.517110]
+    [codes.naics.517311]
     name = "Wired Telecommunications Carriers"
     sic_correlations = ["4841", "7375", "4822", "4813"]
 
@@ -4992,7 +4992,7 @@
     [codes.naics.51721]
     name = "Wireless Telecommunications Carriers (except Satellite)"
 
-    [codes.naics.517210]
+    [codes.naics.517312]
     name = "Wireless Telecommunications Carriers (except Satellite)"
     sic_correlations = ["4899", "4812", "4812"]
 
@@ -5487,29 +5487,29 @@
     [codes.naics.53222]
     name = "Formal Wear and Costume Rental"
 
-    [codes.naics.532220]
+    [codes.naics.532281]
     name = "Formal Wear and Costume Rental"
     sic_correlations = ["7299", "7819"]
 
     [codes.naics.53223]
     name = "Video Tape and Disc Rental"
 
-    [codes.naics.532230]
+    [codes.naics.532282]
     name = "Video Tape and Disc Rental"
     sic_correlations = ["7841"]
 
     [codes.naics.53229]
     name = "Other Consumer Goods Rental"
 
-    [codes.naics.532291]
+    [codes.naics.532283]
     name = "Home Health Equipment Rental"
     sic_correlations = ["7352"]
 
-    [codes.naics.532292]
+    [codes.naics.532284]
     name = "Recreational Goods Rental"
     sic_correlations = ["7999"]
 
-    [codes.naics.532299]
+    [codes.naics.532289]
     name = "All Other Consumer Goods Rental"
     sic_correlations = ["7359"]
 
@@ -10866,18 +10866,18 @@
 
     [codes.sic.4812]
     name = "Radiotelephone Communications"
-    naics_correlations = ["517210", "517911", "517210"]
+    naics_correlations = ["517312", "517911", "517312"]
 
     [codes.sic.4813]
     name = "Telephone Communications, except Radiotelephone"
-    naics_correlations = ["517110", "517911"]
+    naics_correlations = ["517311", "517911"]
 
     [codes.sic.482]
     name = "Telegraph and Other Message Communications"
 
     [codes.sic.4822]
     name = "Telegraph and Other Message Communications"
-    naics_correlations = ["517110"]
+    naics_correlations = ["517311"]
 
     [codes.sic.483]
     name = "Radio and Television Broadcasting Stations"
@@ -10895,14 +10895,14 @@
 
     [codes.sic.4841]
     name = "Cable and Other Pay Television Services"
-    naics_correlations = ["515210", "517110"]
+    naics_correlations = ["515210", "517311"]
 
     [codes.sic.489]
     name = "Communications Services, Not Elsewhere Classified"
 
     [codes.sic.4899]
     name = "Communications Services, Not Elsewhere Classified"
-    naics_correlations = ["517919", "812990", "485310", "517410", "517210"]
+    naics_correlations = ["517919", "812990", "485310", "517410", "517312"]
 
     [codes.sic.49]
     name = "Electric, Gas, and Sanitary Services"
@@ -11373,14 +11373,14 @@
 
     [codes.sic.5331]
     name = "Variety Stores"
-    naics_correlations = ["452990"]
+    naics_correlations = ["452319"]
 
     [codes.sic.539]
     name = "Miscellaneous General Merchandise Stores"
 
     [codes.sic.5399]
     name = "Miscellaneous General Merchandise Stores"
-    naics_correlations = ["452990", "452910"]
+    naics_correlations = ["452319", "452910"]
 
     [codes.sic.54]
     name = "Food Stores"
@@ -11456,7 +11456,7 @@
 
     [codes.sic.5531]
     name = "Auto and Home Supply Stores"
-    naics_correlations = ["441310", "452990", "441320"]
+    naics_correlations = ["441310", "452319", "441320"]
 
     [codes.sic.554]
     name = "Gasoline Service Stations"
@@ -12163,7 +12163,7 @@
 
     [codes.sic.7299]
     name = "Miscellaneous Personal Services, Not Elsewhere Classified"
-    naics_correlations = ["561311", "561990", "541990", "812191", "812990", "532220", "812199", "812930"]
+    naics_correlations = ["561311", "561990", "541990", "812191", "812990", "532281", "812199", "812930"]
 
     [codes.sic.73]
     name = "Business Services"
@@ -12237,7 +12237,7 @@
 
     [codes.sic.7352]
     name = "Medical Equipment Rental and Leasing"
-    naics_correlations = ["532291", "532490"]
+    naics_correlations = ["532283", "532490"]
 
     [codes.sic.7353]
     name = "Heavy Construction Equipment Rental and Leasing"
@@ -12245,7 +12245,7 @@
 
     [codes.sic.7359]
     name = "Equipment Rental and Leasing, Not Elsewhere Classified"
-    naics_correlations = ["532411", "532210", "532299", "532310", "532490", "532420", "532412", "562991"]
+    naics_correlations = ["532411", "532210", "532289", "532310", "532490", "532420", "532412", "562991"]
 
     [codes.sic.736]
     name = "Personnel Supply Services"
@@ -12279,7 +12279,7 @@
 
     [codes.sic.7375]
     name = "Information Retrieval Services"
-    naics_correlations = ["517110"]
+    naics_correlations = ["517311"]
 
     [codes.sic.7376]
     name = "Computer Facilities Management Services"
@@ -12450,7 +12450,7 @@
 
     [codes.sic.7819]
     name = "Services Allied To Motion Picture Production"
-    naics_correlations = ["561311", "512199", "711510", "541690", "532490", "334612", "541214", "512191", "532220"]
+    naics_correlations = ["561311", "512199", "711510", "541690", "532490", "334612", "541214", "512191", "532281"]
 
     [codes.sic.782]
     name = "Motion Picture Distribution and Allied Services"
@@ -12479,7 +12479,7 @@
 
     [codes.sic.7841]
     name = "Video Tape Rental"
-    naics_correlations = ["532230"]
+    naics_correlations = ["532282"]
 
     [codes.sic.79]
     name = "Amusement and Recreation Services"
@@ -12545,7 +12545,7 @@
 
     [codes.sic.7999]
     name = "Amusement and Recreation Services, Not Elsewhere Classified"
-    naics_correlations = ["487990", "611620", "611699", "532292", "713210", "712190", "487210", "711190", "713990", "713290", "713940", "812990", "711219", "487110", "713920", "711310", "711320", "561599"]
+    naics_correlations = ["487990", "611620", "611699", "532284", "713210", "712190", "487210", "711190", "713990", "713290", "713940", "812990", "711219", "487110", "713920", "711310", "711320", "561599"]
 
     [codes.sic.80]
     name = "Health Services"
