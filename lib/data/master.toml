@@ -4294,16 +4294,8 @@
     [codes.naics.45411]
     name = "Electronic Shopping and Mail-Order Houses"
 
-    [codes.naics.454111]
-    name = "Electronic Shopping"
-    sic_correlations = ["5961"]
-
-    [codes.naics.454112]
-    name = "Electronic Auctions"
-    sic_correlations = ["5961"]
-
-    [codes.naics.454113]
-    name = "Mail-Order Houses"
+    [codes.naics.454110]
+    name = "Electronic Shopping and Mail-Order Houses"
     sic_correlations = ["5961"]
 
     [codes.naics.4542]
@@ -5786,13 +5778,17 @@
     [codes.naics.54171]
     name = "Research and Development in the Physical, Engineering, and Life Sciences"
 
-    [codes.naics.541711]
-    name = "Research and Development in Biotechnology"
+    [codes.naics.541713]
+    name = "Research and Development in Nanotechnology"
+    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733", "8731"]
+
+    [codes.naics.541714]
+    name = "Research and Development in Biotechnology (except Nanobiotechnology)"
     sic_correlations = ["8731"]
 
-    [codes.naics.541712]
-    name = "Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)"
-    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733", "8733"]
+    [codes.naics.541715]
+    name = "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)"
+    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733"]
 
     [codes.naics.54172]
     name = "Research and Development in the Social Sciences and Humanities"
@@ -10164,15 +10160,15 @@
 
     [codes.sic.3631]
     name = "Household Cooking Equipment"
-    naics_correlations = ["335221"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3632]
     name = "Household Refrigerators and Home and Farm Freezers"
-    naics_correlations = ["335222"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3633]
     name = "Household Laundry Equipment"
-    naics_correlations = ["335224"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3634]
     name = "Electric Housewares and Fans"
@@ -10184,7 +10180,7 @@
 
     [codes.sic.3639]
     name = "Household Appliances, Not Elsewhere Classified"
-    naics_correlations = ["335228", "335212", "333298"]
+    naics_correlations = ["335220", "335212", "333298"]
 
     [codes.sic.364]
     name = "Electric Lighting and Wiring Equipment"
@@ -11679,7 +11675,7 @@
 
     [codes.sic.5961]
     name = "Catalog and Mail-order Houses"
-    naics_correlations = ["454112", "454111", "454113"]
+    naics_correlations = ["454110"]
 
     [codes.sic.5962]
     name = "Automatic Merchandising Machine Operators"
