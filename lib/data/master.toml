@@ -2791,21 +2791,9 @@
     [codes.naics.33522]
     name = "Major Appliance Manufacturing"
 
-    [codes.naics.335221]
-    name = "Household Cooking Appliance Manufacturing"
-    sic_correlations = ["3631"]
-
-    [codes.naics.335222]
-    name = "Household Refrigerator and Home Freezer Manufacturing"
-    sic_correlations = ["3632"]
-
-    [codes.naics.335224]
-    name = "Household Laundry Equipment Manufacturing"
-    sic_correlations = ["3633"]
-
-    [codes.naics.335228]
-    name = "Other Major Household Appliance Manufacturing"
-    sic_correlations = ["3639"]
+    [codes.naics.335220]
+    name = "Major Household Cooking Manufacturing"
+    sic_correlations = ["3631", "3632", "3633", "3639"]
 
     [codes.naics.3353]
     name = "Electrical Equipment Manufacturing"
@@ -4201,12 +4189,8 @@
     [codes.naics.45211]
     name = "Department Stores"
 
-    [codes.naics.452111]
-    name = "Department Stores (except Discount Department Stores)"
-    sic_correlations = ["5311"]
-
-    [codes.naics.452112]
-    name = "Discount Department Stores"
+    [codes.naics.452210]
+    name = "Department Stores"
     sic_correlations = ["5311"]
 
     [codes.naics.4529]
@@ -4222,7 +4206,7 @@
     [codes.naics.45299]
     name = "All Other General Merchandise Stores"
 
-    [codes.naics.452990]
+    [codes.naics.452319]
     name = "All Other General Merchandise Stores"
     sic_correlations = ["5531", "5399", "5331"]
 
@@ -4310,16 +4294,8 @@
     [codes.naics.45411]
     name = "Electronic Shopping and Mail-Order Houses"
 
-    [codes.naics.454111]
-    name = "Electronic Shopping"
-    sic_correlations = ["5961"]
-
-    [codes.naics.454112]
-    name = "Electronic Auctions"
-    sic_correlations = ["5961"]
-
-    [codes.naics.454113]
-    name = "Mail-Order Houses"
+    [codes.naics.454110]
+    name = "Electronic Shopping and Mail-Order Houses"
     sic_correlations = ["5961"]
 
     [codes.naics.4542]
@@ -5006,7 +4982,7 @@
     [codes.naics.51711]
     name = "Wired Telecommunications Carriers"
 
-    [codes.naics.517110]
+    [codes.naics.517311]
     name = "Wired Telecommunications Carriers"
     sic_correlations = ["4841", "7375", "4822", "4813"]
 
@@ -5016,7 +4992,7 @@
     [codes.naics.51721]
     name = "Wireless Telecommunications Carriers (except Satellite)"
 
-    [codes.naics.517210]
+    [codes.naics.517312]
     name = "Wireless Telecommunications Carriers (except Satellite)"
     sic_correlations = ["4899", "4812", "4812"]
 
@@ -5511,29 +5487,29 @@
     [codes.naics.53222]
     name = "Formal Wear and Costume Rental"
 
-    [codes.naics.532220]
+    [codes.naics.532281]
     name = "Formal Wear and Costume Rental"
     sic_correlations = ["7299", "7819"]
 
     [codes.naics.53223]
     name = "Video Tape and Disc Rental"
 
-    [codes.naics.532230]
+    [codes.naics.532282]
     name = "Video Tape and Disc Rental"
     sic_correlations = ["7841"]
 
     [codes.naics.53229]
     name = "Other Consumer Goods Rental"
 
-    [codes.naics.532291]
+    [codes.naics.532283]
     name = "Home Health Equipment Rental"
     sic_correlations = ["7352"]
 
-    [codes.naics.532292]
+    [codes.naics.532284]
     name = "Recreational Goods Rental"
     sic_correlations = ["7999"]
 
-    [codes.naics.532299]
+    [codes.naics.532289]
     name = "All Other Consumer Goods Rental"
     sic_correlations = ["7359"]
 
@@ -5802,13 +5778,17 @@
     [codes.naics.54171]
     name = "Research and Development in the Physical, Engineering, and Life Sciences"
 
-    [codes.naics.541711]
-    name = "Research and Development in Biotechnology"
+    [codes.naics.541713]
+    name = "Research and Development in Nanotechnology"
+    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733", "8731"]
+
+    [codes.naics.541714]
+    name = "Research and Development in Biotechnology (except Nanobiotechnology)"
     sic_correlations = ["8731"]
 
-    [codes.naics.541712]
-    name = "Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)"
-    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733", "8733"]
+    [codes.naics.541715]
+    name = "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)"
+    sic_correlations = ["3721", "3724", "3728", "8732", "3769", "3764", "3761", "8733"]
 
     [codes.naics.54172]
     name = "Research and Development in the Social Sciences and Humanities"
@@ -7942,14 +7922,14 @@
 
     [codes.sic.1021]
     name = "Copper Ores"
-    naics_correlations = ["212234"]
+    naics_correlations = ["212230"]
 
     [codes.sic.103]
     name = "Lead and Zinc Ores"
 
     [codes.sic.1031]
     name = "Lead and Zinc Ores"
-    naics_correlations = ["212231"]
+    naics_correlations = ["212230"]
 
     [codes.sic.104]
     name = "Gold and Silver Ores"
@@ -7967,7 +7947,7 @@
 
     [codes.sic.1061]
     name = "Ferroalloy Ores, except Vanadium"
-    naics_correlations = ["212234", "212299"]
+    naics_correlations = ["212230", "212299"]
 
     [codes.sic.108]
     name = "Metal Mining Services"
@@ -8023,14 +8003,15 @@
 
     [codes.sic.1311]
     name = "Crude Petroleum and Natural Gas"
-    naics_correlations = ["211111"]
+    naics_correlations = ["211120"]
 
     [codes.sic.132]
     name = "Natural Gas Liquids"
+    naics_correlations = ["211130"]
 
     [codes.sic.1321]
     name = "Natural Gas Liquids"
-    naics_correlations = ["211112"]
+    naics_correlations = ["211130"]
 
     [codes.sic.138]
     name = "Oil and Gas Field Services"
@@ -9162,7 +9143,7 @@
 
     [codes.sic.2819]
     name = "Industrial Inorganic Chemicals, Not Elsewhere Classified"
-    naics_correlations = ["325998", "331311", "325188", "325131", "211112"]
+    naics_correlations = ["325998", "331311", "325188", "325131", "211130"]
 
     [codes.sic.282]
     name = "Plastics Materials and Synthetic Resins, Synthetic Rubber, Cellulo"
@@ -10034,7 +10015,7 @@
 
     [codes.sic.3561]
     name = "Pumps and Pumping Equipment"
-    naics_correlations = ["333911"]
+    naics_correlations = ["333914"]
 
     [codes.sic.3562]
     name = "Ball and Roller Bearings"
@@ -10112,7 +10093,7 @@
 
     [codes.sic.3586]
     name = "Measuring and Dispensing Pumps"
-    naics_correlations = ["333913"]
+    naics_correlations = ["333914"]
 
     [codes.sic.3589]
     name = "Service Industry Machinery, Not Elsewhere Classified"
@@ -10179,15 +10160,15 @@
 
     [codes.sic.3631]
     name = "Household Cooking Equipment"
-    naics_correlations = ["335221"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3632]
     name = "Household Refrigerators and Home and Farm Freezers"
-    naics_correlations = ["335222"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3633]
     name = "Household Laundry Equipment"
-    naics_correlations = ["335224"]
+    naics_correlations = ["335220"]
 
     [codes.sic.3634]
     name = "Electric Housewares and Fans"
@@ -10199,7 +10180,7 @@
 
     [codes.sic.3639]
     name = "Household Appliances, Not Elsewhere Classified"
-    naics_correlations = ["335228", "335212", "333298"]
+    naics_correlations = ["335220", "335212", "333298"]
 
     [codes.sic.364]
     name = "Electric Lighting and Wiring Equipment"
@@ -10373,7 +10354,7 @@
 
     [codes.sic.3743]
     name = "Railroad Equipment"
-    naics_correlations = ["336510", "333911"]
+    naics_correlations = ["336510", "333914"]
 
     [codes.sic.375]
     name = "Motorcycles, Bicycles, and Parts"
@@ -10885,18 +10866,18 @@
 
     [codes.sic.4812]
     name = "Radiotelephone Communications"
-    naics_correlations = ["517210", "517911", "517210"]
+    naics_correlations = ["517312", "517911", "517312"]
 
     [codes.sic.4813]
     name = "Telephone Communications, except Radiotelephone"
-    naics_correlations = ["517110", "517911"]
+    naics_correlations = ["517311", "517911"]
 
     [codes.sic.482]
     name = "Telegraph and Other Message Communications"
 
     [codes.sic.4822]
     name = "Telegraph and Other Message Communications"
-    naics_correlations = ["517110"]
+    naics_correlations = ["517311"]
 
     [codes.sic.483]
     name = "Radio and Television Broadcasting Stations"
@@ -10914,14 +10895,14 @@
 
     [codes.sic.4841]
     name = "Cable and Other Pay Television Services"
-    naics_correlations = ["515210", "517110"]
+    naics_correlations = ["515210", "517311"]
 
     [codes.sic.489]
     name = "Communications Services, Not Elsewhere Classified"
 
     [codes.sic.4899]
     name = "Communications Services, Not Elsewhere Classified"
-    naics_correlations = ["517919", "812990", "485310", "517410", "517210"]
+    naics_correlations = ["517919", "812990", "485310", "517410", "517312"]
 
     [codes.sic.49]
     name = "Electric, Gas, and Sanitary Services"
@@ -11385,21 +11366,21 @@
 
     [codes.sic.5311]
     name = "Department Stores"
-    naics_correlations = ["452112", "452111"]
+    naics_correlations = ["452210""]
 
     [codes.sic.533]
     name = "Variety Stores"
 
     [codes.sic.5331]
     name = "Variety Stores"
-    naics_correlations = ["452990"]
+    naics_correlations = ["452319"]
 
     [codes.sic.539]
     name = "Miscellaneous General Merchandise Stores"
 
     [codes.sic.5399]
     name = "Miscellaneous General Merchandise Stores"
-    naics_correlations = ["452990", "452910"]
+    naics_correlations = ["452319", "452910"]
 
     [codes.sic.54]
     name = "Food Stores"
@@ -11475,7 +11456,7 @@
 
     [codes.sic.5531]
     name = "Auto and Home Supply Stores"
-    naics_correlations = ["441310", "452990", "441320"]
+    naics_correlations = ["441310", "452319", "441320"]
 
     [codes.sic.554]
     name = "Gasoline Service Stations"
@@ -11694,7 +11675,7 @@
 
     [codes.sic.5961]
     name = "Catalog and Mail-order Houses"
-    naics_correlations = ["454112", "454111", "454113"]
+    naics_correlations = ["454110"]
 
     [codes.sic.5962]
     name = "Automatic Merchandising Machine Operators"
@@ -12182,7 +12163,7 @@
 
     [codes.sic.7299]
     name = "Miscellaneous Personal Services, Not Elsewhere Classified"
-    naics_correlations = ["561311", "561990", "541990", "812191", "812990", "532220", "812199", "812930"]
+    naics_correlations = ["561311", "561990", "541990", "812191", "812990", "532281", "812199", "812930"]
 
     [codes.sic.73]
     name = "Business Services"
@@ -12256,7 +12237,7 @@
 
     [codes.sic.7352]
     name = "Medical Equipment Rental and Leasing"
-    naics_correlations = ["532291", "532490"]
+    naics_correlations = ["532283", "532490"]
 
     [codes.sic.7353]
     name = "Heavy Construction Equipment Rental and Leasing"
@@ -12264,7 +12245,7 @@
 
     [codes.sic.7359]
     name = "Equipment Rental and Leasing, Not Elsewhere Classified"
-    naics_correlations = ["532411", "532210", "532299", "532310", "532490", "532420", "532412", "562991"]
+    naics_correlations = ["532411", "532210", "532289", "532310", "532490", "532420", "532412", "562991"]
 
     [codes.sic.736]
     name = "Personnel Supply Services"
@@ -12298,7 +12279,7 @@
 
     [codes.sic.7375]
     name = "Information Retrieval Services"
-    naics_correlations = ["517110"]
+    naics_correlations = ["517311"]
 
     [codes.sic.7376]
     name = "Computer Facilities Management Services"
@@ -12469,7 +12450,7 @@
 
     [codes.sic.7819]
     name = "Services Allied To Motion Picture Production"
-    naics_correlations = ["561311", "512199", "711510", "541690", "532490", "334612", "541214", "512191", "532220"]
+    naics_correlations = ["561311", "512199", "711510", "541690", "532490", "334612", "541214", "512191", "532281"]
 
     [codes.sic.782]
     name = "Motion Picture Distribution and Allied Services"
@@ -12498,7 +12479,7 @@
 
     [codes.sic.7841]
     name = "Video Tape Rental"
-    naics_correlations = ["532230"]
+    naics_correlations = ["532282"]
 
     [codes.sic.79]
     name = "Amusement and Recreation Services"
@@ -12564,7 +12545,7 @@
 
     [codes.sic.7999]
     name = "Amusement and Recreation Services, Not Elsewhere Classified"
-    naics_correlations = ["487990", "611620", "611699", "532292", "713210", "712190", "487210", "711190", "713990", "713290", "713940", "812990", "711219", "487110", "713920", "711310", "711320", "561599"]
+    naics_correlations = ["487990", "611620", "611699", "532284", "713210", "712190", "487210", "711190", "713990", "713290", "713940", "812990", "711219", "487110", "713920", "711310", "711320", "561599"]
 
     [codes.sic.80]
     name = "Health Services"
