@@ -12131,14 +12131,14 @@
 
     [codes.sic.7231]
     name = "Beauty Shops"
-    naics_correlations = ["611511", "812112", "812113"]
+    naics_correlations = ["812112", "812113","812111","611511"]
 
     [codes.sic.724]
     name = "Barber Shops"
 
     [codes.sic.7241]
     name = "Barber Shops"
-    naics_correlations = ["611511", "812111"]
+    naics_correlations = ["812111","611511"]
 
     [codes.sic.725]
     name = "Shoe Repair Shops and Shoeshine Parlors"

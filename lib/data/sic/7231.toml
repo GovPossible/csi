@@ -1,3 +1,3 @@
 code = "7231"
 name = "Beauty Shops"
-naics_correlations = ["611511", "812112", "812113"]
+naics_correlations = ["812112", "812113","812111","611511"]
