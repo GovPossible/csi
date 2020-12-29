@@ -11694,7 +11694,7 @@
 
     [codes.sic.5984]
     name = "Liquefied Petroleum Gas (bottled Gas) Dealers"
-    naics_correlations = ["454312"]
+    naics_correlations = ["454310"]
 
     [codes.sic.5989]
     name = "Fuel Dealers, Not Elsewhere Classified"
