@@ -11601,7 +11601,7 @@
 
     [codes.sic.5812]
     name = "Eating Places"
-    naics_correlations = ["722320", "711110", "722310", "722110", "722211", "722213"]
+    naics_correlations = ["722511", "722513", "722514", "722410", "722515", "722320", "722310", "711110"]
 
     [codes.sic.5813]
     name = "Drinking Places (alcoholic Beverages)"
