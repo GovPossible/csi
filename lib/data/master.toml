@@ -963,7 +963,13 @@
     name = "All Other Specialty Trade Contractors"
     sic_correlations = ["1771", "7353", "1799"]
 
-    [codes.naics.31-33]
+    [codes.naics.31]
+    name = "Manufacturing"
+
+    [codes.naics.32]
+    name = "Manufacturing"
+
+    [codes.naics.33]
     name = "Manufacturing"
 
     [codes.naics.311]
