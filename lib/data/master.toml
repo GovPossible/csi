@@ -9077,7 +9077,7 @@
 
     [codes.sic.2752]
     name = "Commercial Printing, Lithographic"
-    naics_correlations = ["323110", "323114"]
+    naics_correlations = ["323111"]
 
     [codes.sic.2754]
     name = "Commercial Printing, Gravure"
@@ -9085,7 +9085,7 @@
 
     [codes.sic.2759]
     name = "Commercial Printing, Not Elsewhere Classified"
-    naics_correlations = ["323115", "323112", "323119", "323114", "323113"]
+    naics_correlations = ["323111", "323113"]
 
     [codes.sic.276]
     name = "Manifold Business Forms"
