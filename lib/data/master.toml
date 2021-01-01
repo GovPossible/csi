@@ -11690,7 +11690,7 @@
 
     [codes.sic.5983]
     name = "Fuel Oil Dealers"
-    naics_correlations = ["454311"]
+    naics_correlations = ["454310"]
 
     [codes.sic.5984]
     name = "Liquefied Petroleum Gas (bottled Gas) Dealers"
@@ -11698,7 +11698,7 @@
 
     [codes.sic.5989]
     name = "Fuel Dealers, Not Elsewhere Classified"
-    naics_correlations = ["454319"]
+    naics_correlations = ["454310"]
 
     [codes.sic.599]
     name = "Retail Stores, Not Elsewhere Classified"
