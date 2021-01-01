@@ -11484,14 +11484,14 @@
 
     [codes.sic.5571]
     name = "Motorcycle Dealers"
-    naics_correlations = ["441221"]
+    naics_correlations = ["441228"]
 
     [codes.sic.559]
     name = "Automotive Dealers, Not Elsewhere Classified"
 
     [codes.sic.5599]
     name = "Automotive Dealers, Not Elsewhere Classified"
-    naics_correlations = ["441229"]
+    naics_correlations = ["441228"]
 
     [codes.sic.56]
     name = "Apparel and Accessory Stores"
