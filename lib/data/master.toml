@@ -11583,7 +11583,7 @@
 
     [codes.sic.5734]
     name = "Computer and Computer Software Stores"
-    naics_correlations = ["443120"]
+    naics_correlations = ["443142"]
 
     [codes.sic.5735]
     name = "Record and Prerecorded Tape Stores"
