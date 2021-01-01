@@ -11366,7 +11366,7 @@
 
     [codes.sic.5311]
     name = "Department Stores"
-    naics_correlations = ["452210""]
+    naics_correlations = ["452210","452311"]
 
     [codes.sic.533]
     name = "Variety Stores"
