@@ -10120,7 +10120,7 @@
 
     [codes.sic.3599]
     name = "Industrial and Commercial Machinery and Equipment, Not Elsewhere"
-    naics_correlations = ["333319", "332999", "336399", "332813", "332710", "333999", "334519"]
+    naics_correlations = ["332710","332813","332999","333318","333999","334519","336390"]
 
     [codes.sic.36]
     name = "Electronic and Other Electrical Equipment and Components, except Computer"
