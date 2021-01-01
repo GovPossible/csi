@@ -11572,7 +11572,7 @@
 
     [codes.sic.5722]
     name = "Household Appliance Stores"
-    naics_correlations = ["443111"]
+    naics_correlations = ["443141"]
 
     [codes.sic.573]
     name = "Radio, Television, Consumer Electronics, and Music Stores"
