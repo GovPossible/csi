@@ -8112,9 +8112,15 @@
 
     [codes.sic.15]
     name = "Building Construction-general Contractors and Operative Builders"
+    naics_correlations = ["236220", "236116", "236118", "236115", "236117", "236210"]
+
+    [codes.sic.1511]
+    name = "OLD SIC - General Contractors-single-family Houses"
+    naics_correlations = ["236118", "236115"]
 
     [codes.sic.152]
     name = "General Building Contractors-residential Buildings"
+    naics_correlations = ["236115","236220", "236116", "236118"]
 
     [codes.sic.1521]
     name = "General Contractors-single-family Houses"
@@ -8133,6 +8139,7 @@
 
     [codes.sic.154]
     name = "General Building Contractors-nonresidential Buildings"
+    naics_correlations = ["236220", "236210"]
 
     [codes.sic.1541]
     name = "General Contractors-industrial Buildings and Warehouses"
@@ -12555,6 +12562,10 @@
 
     [codes.sic.80]
     name = "Health Services"
+
+    [codes.sic.8000]
+    name = "Health Services"
+    naics_correlations = ["621493", "621111", "621491", "621112","621210","621310","621320","621391","621330","621340","621399","623110","623210","623311","622110","622210","622310","621511","621512","339116","621610","621492","621399","621410","621420","621498"]
 
     [codes.sic.801]
     name = "Offices and Clinics of Doctors of Medicine"

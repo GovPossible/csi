@@ -1,2 +1,3 @@
 code = "154"
 name = "General Building Contractors-nonresidential Buildings"
+naics_correlations = ["236220", "236210"]
