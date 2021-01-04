@@ -11734,7 +11734,7 @@
 
     [codes.sic.5999]
     name = "Miscellaneous Retail Stores, Not Elsewhere Classified"
-    naics_correlations = ["453920", "453998", "446120", "446199", "339113", "453910", "443112"]
+    naics_correlations = ["453920", "453998", "446120", "446199", "339113", "453910"]
 
     [codes.sic.60]
     name = "Depository Institutions"
